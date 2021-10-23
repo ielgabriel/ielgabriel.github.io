@@ -1,0 +1,25 @@
+#qna_text {
+    display: table;
+    margin: auto auto;
+    border: 1px solid white;
+}
+
+h1 {
+    font-size: 65px;
+}
+
+h1, h2 {
+    color: rgb(225,225,225);
+    font-family:'Courier New', Courier, monospace;
+}
+
+dl, dt, dd {
+    color: rgb(230,230,230);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 19px;
+    padding: 5px;
+}
+
+dl dt dd {
+    margin-left: 15px;
+}
