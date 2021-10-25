@@ -1,15 +1,12 @@
-/* class styling */
-.example {
+/* scrollbar styling */
+body {
   overflow-y: scroll;
-}
-
-.example::-webkit-scrollbar {
-    display: none;
-}
-
-.example {
   -ms-overflow-style: none;  
   scrollbar-width: none;  
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 .center {
@@ -22,7 +19,7 @@
 /* body */
 body {
     background-color: rgb(35,35,35);
-    background-image: url('image/background.jpg');
+    background-image: url('image/Screenshot\ 2021-10-25\ 102704.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
