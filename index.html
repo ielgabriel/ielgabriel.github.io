@@ -1,46 +1,74 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Welcome!</title>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/style2.css">
-    </head>
-
-    <body>
-      <header>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./resource/image/logo.png">
+    <title>iel.gabriel</title>
+    <!--Stylesheets-->
+    <link rel="stylesheet" href="./resource/css/reset.css">
+    <link rel="stylesheet" href="./resource/css/style.css">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
         <nav>
-          <ul>
-            <li><a href="#introduction">Home</a></li>
-            <li><a href="mailto: gabrielhutasoit24@gmail.com">Contact Me</a></li>
-            <li><a href="#news">My Posts</a></li>
-          </ul>
+            <div id="nav">
+                <a href="#h1">HOME</a>
+                <a href="mailto:gabrielhutasoit24@gmail.com">CONTACT ME</a>
+                <a href="./html/post.html">MY POST</a>
+            </div>
         </nav>
-      
-        <h1 style="text-align: center; margin-top: 50px; margin-bottom: 0px;">Rijal Gabriel</h1>
-        <h2 style="text-align: center;">a student with high dreams</h2>
-      </header>
-        <main id="introduction">
-          <video class="center" style="width: 80%; margin-top: 50px;" src="videos/Izinkan Aku Bercerita (PROYEK SBK).mp4" type="video/mp4" controls>
-            Video Not Avalaible
-          </video>
-
-          <section>
-          <div class="container" id="qna_text" style="margin-top: 150px; margin-bottom: 200px;">
-            <dl>
-               <strong style="font-size: 30px;" >Some quick QnA with me:</strong><br><br>
-               <dt>1. What is your name?</dt>
-                         <dd>My name's Rijal Gabriel.</dd>
-               <dt>2. What is your nationality?</dt>
-                         <dd>#IndoPride</dd>
-               <dt>3. How old are you?</dt>
-                         <dd>I'm 15 years old. (currently)</dd>
-               <dt>4. Where do you study?</dt>
-                         <dd>I'm a student at SMAS Unggul Del.</dd>
-               <dt>5. Are you a senior programmer?</dt>
-                         <dd>I'm not even a junior :( , but it is my aim for the future.</dd>
-            </dl>
-          </div>
-          </section>
-        </main>  
-    </body>
+    </header>
+    <main>
+        <section id="intro">
+            <div id="logo">
+                <a href="#h1"><img src="./resource/image/logo.png" alt="A shiba inu with it's head covered with sushi" title="Hello! I'm Sushi Inu!"></a>
+            </div>
+            <h1 id="h1">Iel Gabriel</h1>
+        </section>
+        <section class="container" id="main-content">
+            <h2>Hi! Do you want to know me more?</h2>
+            <h3>Here some quick QnA for you!</h3>
+            <ul id="qna">
+                <li><b>1. What is your name?</b></li>
+                <p>My name's Rijal Gabriel (abrreviated as Iel).</p>
+                <li><b>2. What is your nationality?</b></li>
+                <p>I'm Indonesian.</p>
+                <li><b>3. How old are you?</b></li>
+                <p>I'm 16 years old (currently).</p>
+                <li><b>4. What is your hobby?</b></li>
+                <p>I like playing games, watching animes, and coding.</p>
+                <li><b>5. Where do you study?</b></li>
+                <p>Uhhh.., in my school I guess?</p>
+                <li><b>6. When did you start to study programming etc.?</b></li>
+                <p>Since high school (yes, I am a newbie. So be nice to me ヾ(￣▽￣)).</p>
+                <li><b>7. Which path do you like the most in programming?</b></li>
+                <p>I think game and AI developing are pretty interesting to me.</p>
+            </ul>
+        </section>
+        <section class="container" id="project-content">
+            <h2>Here is some projects that I've worked on.</h2>
+            <h3>(Some of the projects are still undergo, tho).</h3>
+            <section class="img-container">
+                <div><a href="https://www.youtube.com/watch?v=bToRdiorkMs&t" target="_blank"><img src="./resource/image/project1.png" alt="A logo being grabbed by a zombie hand in the middle of dark forest" title="Nine-Tastic Feast"></a></div>
+                <div><a href="https://www.youtube.com/watch?v=Z6Z8PU-wqF4" target="_blank"><img src="./resource/image/project2.png" alt="A TV that shows SUD Competition & Expo text" title="SUD Competition & Expo"></a></div>
+                <div><a href="https://github.com/ielgabriel/project-intelAI-openVINO.git" target="_blank"><img src="./resource/image/project3.png" alt="Text that reads Intel AI" title="Intel AI for Future Workforce"></a></div>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <p id="notes">This is my first personal website. So, feel free to tell me what needs some tweaking :)</p>
+        <p id="quotes">Some quotes from me:</p>
+        <h2>
+            <p>''I need to pin the corners of my map,</p>
+            <p>before I can travel any further.''</p>
+        </h2>
+        <p style="font-style: italic; font-size: 1.1vw;"> -- by: <a href="http://www.quotationspage.com/quote/39722.html" target="_blank">Mitch Hedberg,</a> --</p>
+        <p style="font-style: italic; font-size: 1.1vw;">-- but I shorten it. --</p>
+    </footer>
+</body>
 </html>
