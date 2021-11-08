@@ -1,61 +1,38 @@
+/* Basic Styling */
+* {
+    color: rgb(55,55,55);
+}
+
 html {
     scroll-behavior: smooth;
     overflow: auto;
 }
 
 body {
-    font-family: 'PT Sans Caption',sans-serif;
     background-image: url('../image/background.png');
+    font-family: 'PT Sans Caption',sans-serif;
 }
 
-header {
-    background-color: rgb(50,50,50);
-    width: 100%;
-}
-
-nav #nav {
-    display: inline-flex;
-}
-
-#nav a {
-    margin: auto 8px;
-    padding: 4%;
-    min-width: 100px;
-    width: 11vw;
-    max-width: 180px;
-    text-decoration: none;
+header *,footer *{
     color: white;
-    transition: all 0.1s;
-}
-#nav a:hover {
-    background-color: rgb(30,30,30);
-    color: rgb(235, 133, 65);
-    transform: scale(1.1);
+    background-color: rgb(50,50,50);
 }
 
-.container {
+section.container {
     margin: 80px 0;
-    min-width: 600px;
     width: 100%;
     padding: 2vw 4vw;
     background-color: white;
 }
 
-#logo {
-    margin: 20vh auto;
-    width: 20vw;
+footer {
+    background-color: rgb(50,50,50);
+    text-align: center;
+    padding: 1vw 15vw;
 }
 
-#logo img {
-    min-width: 115px;
-    width: 20vw;
-    transition: all 0.5s;
-}
-#logo img:hover {
-    transform: scale(1.4) rotate(10deg);
-}
-
-h1#h1 {
+/* Elements Styling */
+h1 {
     margin: 5vh auto;
     color: rgb(50,50,50);
     font-size: clamp(5vw,500px,35px);
@@ -70,13 +47,51 @@ h2 {
 }
 
 h3 {
-    font-size: clamp(1vw,200px, 15px);
+    font-size: clamp(1.5vw,200px, 15px);
     font-weight: lighter;
 }
 
-#qna {
+/* Class & ID Styling */
+.width-100 {
+    width: 100%;
+}
+
+.content-font {
     margin: 9vh 2vw;
-    font-size: clamp(1vw,175px, 14px);
+    font-size: clamp(1.2vw,175px, 14px);
+}
+
+.nav {
+    display: inline-flex;
+}
+
+.nav a {
+    margin: auto 8px;
+    padding: 4%;
+    min-width: 100px;
+    width: 11vw;
+    max-width: 180px;
+    text-decoration: none;
+    transition: all 0.1s;
+}
+.nav a:hover {
+    background-color: rgb(30,30,30);
+    color: rgb(235, 133, 65);
+    transform: scale(1.1);
+}
+
+#logo {
+    margin: 20vh auto;
+    width: 20vw;
+}
+
+#logo img {
+    min-width: 115px;
+    width: 20vw;
+    transition: all 0.5s;
+}
+#logo img:hover {
+    transform: scale(1.4) rotate(10deg);
 }
 
 #qna li,p {
@@ -99,7 +114,6 @@ h3 {
     margin: 12px;
     transition: all 0.6s;
 }
-
 .img-container div:hover {
     transform: scale(1.15);
     opacity: 0.8;
@@ -111,17 +125,8 @@ h3 {
     max-width: 300px;
 }
 
-footer {
-    background-color: rgb(50,50,50);
-    color: white;
-    text-align: center;
-    padding: 8px 40px;
-}
-
 footer #notes {
-    font-size: 1.2vw;
-}
-
-footer #quotes {
-    margin-top: 75px;
+    margin-top: 2vh;
+    margin-bottom: 10vh;
+    font-size: clamp(1.5vw,200px, 15px);
 }
