@@ -1,0 +1,33 @@
+.top-first {
+    margin: 18vh auto;
+}
+
+.post-block {
+    margin: 10vh 3vh;
+    padding: 6vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-img img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.post-img {
+    padding-right: 2vw;
+}
+
+.post-text h2 {
+    margin-bottom: 2vh;
+    transition: all 0.2s;
+}
+.post-text h2:hover {
+    opacity: 0.80;
+}
+
+.post-text p {
+    margin: 0;
+}

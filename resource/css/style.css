@@ -21,6 +21,7 @@ header *,footer *{
 section.container {
     margin: 80px 0;
     width: 100%;
+    min-width: 349px;
     padding: 2vw 4vw;
     background-color: white;
 }
@@ -29,6 +30,8 @@ footer {
     background-color: rgb(50,50,50);
     text-align: center;
     padding: 1vw 15vw;
+    width: 100%;
+    min-width: 349px;
 }
 
 /* Elements Styling */
@@ -53,6 +56,10 @@ h3 {
 
 /* Class & ID Styling */
 .width-100 {
+    width: 100%;
+}
+
+.container {
     width: 100%;
 }
 
@@ -129,4 +136,8 @@ footer #notes {
     margin-top: 2vh;
     margin-bottom: 10vh;
     font-size: clamp(1.5vw,200px, 15px);
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
